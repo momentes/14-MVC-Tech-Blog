@@ -1,0 +1,62 @@
+.message-box {
+    border: 1px solid #424040;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+ }
+  
+.message-title {
+    background-color: #706e6e;
+    color: #fff;
+    padding: 5px 10px;
+    margin: -10px -10px 10px -10px;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    justify-content: space-between;
+ }
+.message-body {
+    margin-bottom: 10px;
+}
+
+.create-form-container{
+    width: 80%;
+    height: 300px;
+}
+.comment-message-title{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nav-font{
+    background-color: #41c7aa;
+    font-size:x-large;
+    font-weight: bold;
+    color: #fff;
+}
+
+.hompage-title {
+    color: #f9f6f6;
+    text-shadow: 2px 2px 4px rgb(138, 131, 117);
+    font-style: italic;
+}
+
+.header-nav-bar{
+    background-color: #41c7aa;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-decoration:wavy
+}
+
+.page-blackground{
+    background-color: #afe4e3;
+}
+
+.login-username{
+    font-style: italic;
+}
+
+.dashboard-message-title{
+    color: #fff;
+}
