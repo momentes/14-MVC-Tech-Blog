@@ -1,0 +1,22 @@
+{{#each posts as |posts| }}
+<div class="row mb-4">
+  <div class="col mb-4 message-box">
+    <div class="message-title">
+      <h5> 
+        <a class=" dashboard-message-title" href="/post/{{posts.id}}">{{posts.title}} </a>
+      </h5>
+      <h5> 
+        Created by {{posts.user.name}} on {{format_date posts.created_at}}
+      </h5>
+    </div>
+    <p class="message-body">{{posts.body}}</p>  
+  </div>
+</div>
+{{/each}}
+
+
+<form id="new-post-btn">
+    <button class="btn btn-primary"  type="submit">+ New Post</button>
+</form>
+
+<script src="/js/dashboard.js"></script>
